@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录注册案例</title>
+</head>
+
+<body>
+    <!-- 光标定位到label标签上就可以选中
+    <label for="sex">男</label>
+    <input type="radio" name="sex" id="sex">男 -->
+    <form action="#" method="get">
+        <label for="usename">用户名：</label> <input type="text" name="usename" id="usename"><br>
+        密码：<input type="password" name="password" id=""><br>
+        确认密码：<input type="password" name="password" id=""><br>
+        验证码：<input type="text" name="code" id=""><br>
+        性别：<input type="radio" name="sex" id="">女<input type="radio" name="sex" id="">男<br>
+        地方:<select name="city" id="">
+            <option value="0">请选择</option>
+            <option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3" selected="selected">广州</option>
+            <option value="4">深圳</option>
+        </select><br>
+        生日：<select name="year" id="">
+            <option value="10">请选择年</option>
+            <option value="0">1990</option>
+            <option value="1">1991</option>
+            <option value="2">1992</option>
+            <option value="3">1993</option>
+            <option value="4">1994</option>
+            <option value="5">1995</option>
+            <option value="6">1996</option>
+        </select>
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">我已同意</label><a href="#">用户协议</a><br>
+        <input type="submit" value="提交"><input type="reset" value="重置">
+    </form>
+
+
+</body>
+
+</html>
